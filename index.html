@@ -1,90 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Html Assignment</title>
-</head>
-<body>
-    <h2>Employee Information</h2>
-    <table border="2">
-        <tr>
-            <th>Employee</th>
-            <th>Position</th>
-            <th>Country</th>
-        </tr>
-        <tr>
-            <th>Abhinav</th>
-            <th>Designer</th>
-            <th>India</th>
-        </tr>
-        <tr>
-            <th>Aman</th>
-            <th>developer</th>
-            <th>India</th>
-        </tr>
-        <tr>
-            <th>Aaditya</th>
-            <th>Manager</th>
-            <th>India</th>
-        </tr>
-        <tr>
-            <th>Siddharth</th>
-            <th>Data Scientist</th>
-            <th>India</th>
-        </tr>
-        <tr>
-            <th>Abhishek</th>
-            <th>Manager</th>
-            <th>India</th>
-        </tr>
-        <tr>
-            <th>Priyanka</th>
-            <th>Singer</th>
-            <th>India</th>
-        </tr>
-    </table>
-    <br>
-    <hr>
-    <h2>Student Score</h2>
-<table border="2">
-    <tr>
-        <th>Student</th>
-        <th>Subject Score</th>
-        <th>Marks</th>
-    </tr>
-    <tr>
-        <td rowspan="3"><b>Abhinav</b></td>
-        <th>Algebra</th>
-        <th>92</th>
-    </tr>
-    <tr>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+        <h3>Product Page</h3>
+        <div class="image"><img src="Tshirt.png" alt="error" height="400" width="300" /></div>
         
-        <th>Geometry</th>
-        <th>90</th>
-    </tr>
-    <tr>
+            <div class="parag">
+              <span class="type">Green Cotton Tshirt</span>
+              <div class="product">shirt</div>
+            </div>
+            <div class="star">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <div class="price">
+              <span id="rupees">Rs.400</span>
+              <span id="no-discount">Rs.800</span>
+              <span id="discount">50% off</span>
+            </div>
+            <div class="content">
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente officia quam commodi itaque magnam illo, cum
+                consectetur sed quia iusto. Animi assumenda sequi id minima
+                cupiditate. Aliquam a eveniet, officia ullam omnis delectus
+                veniam!</span>
+            </div>
+            <div class="color">
+              <span><b>Color</b> Green</span>
+            </div>
+            <div class="availability">
+              <span><b>Availability</b> &nbsp &nbsp &nbsp &nbsp &nbsp 3 in stock</span>
+            </div>
+            <div class="size">
+              <span><b>Select size:</b></span>
+              <span class="radiobotton">
+                <input type="radio" name="size" class="small" value="SMALL" />&nbspSmall 
+                <input type="radio" name="size" class="medium" value="MEDIUM" />&nbspMedium 
+                <input type="radio" name="size" class="medium" value="LARGE" />&nbspLarge
+              </span>
+            </div>
+             <div class="quantity">
+                <span><b>Quantity:</b></span>
+                <select id="number" >
+                   <option value="one">1</option>
+                   <option value="Two">2</option>
+                   <option value="Three">3</option>
+                   <option value="Four">4</option>
+                 </select>
+            </div>
+            <div class="botton">
+               <button type="button" class="button1">Buy Now</button>
+               <button type="button" class="button2">Add to Cart</button>
+            </div>
         
-        <th>Physics</th>
-        <th>90</th>
-    </tr>
-    <tr>
-        <td colspan="2"><b>Total of all subjects</b></td>
-        <th>272</th>
-    </tr>
-</table>
-<hr>
-<h2>Hobbies</h2>
-<table border="2" width="400" height="150">
-    <tr>
-        <th>Indoor</th>
-        <th>Chess</th>
-    </tr>
-    <tr>
-        <th>Outdoor</th>
-        <th>Cricket</th>
-    </tr>
-</table>
-</body>
+        
+    </div>
+  </body>
 </html>
