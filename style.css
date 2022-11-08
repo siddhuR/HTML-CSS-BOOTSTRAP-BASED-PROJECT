@@ -1,161 +1,156 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    
-  
-}
-
 .main{
-    height:100%;
+   
     width:100%;
+    height:90vh;
+   
 }
-
-h3{
-    width:100%;
-    height:5vh;
-    margin-top: 20px;
-    margin-left:auto;
-    text-align:center;
-}
-
 .image{
-    width:24%;
-    position: relative;
-    top:25%;
-    margin-left:200px;
-    margin-top:100px;
-    border:1px solid rgb(4, 70, 4);
-}
-
-.parag{
-    position: relative;
-    width:15%;
+    position:relative;
     left:50%;
-    margin-top: -400px;   
 }
 
-.parag .type{
-font-weight:bold;
-
-}
-
-.product{
-    margin-top:10px;
-    color:rgb(120, 120, 120);
-}
-
-#rupees{
-    font-weight:bold;
-}
-
-#no-discount{
-   font-size: 0.8em;
-   text-decoration: line-through;
-   margin-left: 5px;
-}
-
-#discount{
-font-weight: bold;
-color:rgb(60, 179, 113);
-margin-left: 5px;
-}
-
-.star{
-    position: relative;
-    width:15%;
-    left:50%;
-    margin-top: 10px;
-}
-
-.price{
-    position: relative;
-    width:15%;
-    left:50%;
-    margin-top: 10px;
-}
 
 .content{
-    position: relative;
-    width:30%;
-    left:50%;
-    margin-top: 10px;
-}
-
-.color{
-    position: relative;
-    width:15%;
-    left:50%;
-    margin-top: 10px;
-    word-spacing: 5.3em;
-}
-
-.availability{
-    position: relative;
-    width:30%;
-    left:50%;
-    margin-top: 10px;
-   
-}
-
-.size{
-    position: relative;
-    width:30%;
-    left:50%;
-    margin-top: 20px;
     
-}
-
-.medium{
-    margin-left: 10px;
-}
-
-.radiobotton{
-    position: relative;
+    width:50%;
+    margin-left:70px;
     
-    left:12%;
-   
-}
-
-.quantity{
     position: relative;
-    width:15%;
-    left:50%;
-    margin-top: 20px;
-    word-spacing: 3em;
-}
-
-.botton{
-    position: relative;
-    width:40%;
-    height:10vh;
-    left:50%;
-    margin-top: 45px;
-   
+    top:-400px;
+    font-weight:  bold;
+    font-size:1.8em;
     
-  
-}
-
-[type="button"] {
-    padding:15px 32px;
-    border-radius:3px;
-    border:none;
-    cursor:pointer;
+    
 }
 
 .button1{
-   background-color: rgb(0, 0, 255);
-   color:#fff;
-   font-size:1.2em;
+    position:relative;
+    top:-350px;
+    left:70px;
+    padding:10px 25px;
+    background-color:#FCD34D;
+    border-radius: 30px;
+    color:#fff;
 }
 
-.button2{
-    margin-left: 20px;
-    background-color: rgb(240, 240, 240);
-    font-size:1.2em;
-
+.container{
+    position:relative;
+    
+    height:45vh;
+    text-align:center;
+    padding:100px;
+    background-color:#FCD34D ;
 }
 
+.playstore{
+    width:30%;
+    
+}
 
+#content{
+    font-weight: bold;
+    font-size:1.8em;
+}
 
+.main-container{
 
+    display:flex;
+    justify-content:flex-end;
+    margin-left:470px;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    margin-right:65px;
+    height:50vh;
+    margin-top:50px;
+    
+    
+  
+}
+
+.box{
+    text-align:center;
+    position:relative;
+    width:45%;
+    margin:10px ;
+    height:45vh;
+}
+
+.camera-processor-styling{
+    position:relative;
+    top:70px;
+   
+}
+
+.style-font{
+    font-size:1.4em;
+}
+
+.iphone{
+    width:23%;
+    position:relative;
+    left:100px;
+    top:-600px;
+    margin-top:0px;
+}
+
+.media-link{
+    position:relative;
+    top:-500px;
+    margin-left:100px;
+    margin-right:100px;
+    height:40vh;
+    text-align:center;
+    font-size:2em;
+    background-color: #FCD34D;
+    
+    
+}
+
+.social-icon{
+    padding:10px;
+    position:relative;
+    top:30px;
+  
+}
+
+.social-icon i{
+    
+    border-radius:50%;
+    background-color: #FCD34D;
+    position:relative;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.footer{
+    position:relative;
+    top:-500px;
+    margin-left:100px;
+    margin-right:100px;
+    height:20vh;
+    text-align:center;
+    background-color:black;
+    color:#abb8c3;
+    padding-top:10px;
+    font-size:0.7em;
+
+    
+}
+
+.footer-base{
+    padding-top:10px;
+    
+}
+
+.privacy{
+    text-decoration: underline;
+}
+
+.Term{
+    text-decoration: underline;
+}
+
+.faq {
+    text-decoration: underline;
+    
+}
